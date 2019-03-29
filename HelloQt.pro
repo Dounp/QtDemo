@@ -28,10 +28,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #源文件 \换行
 SOURCES += main.cpp\
         mywidget.cpp \
-    mybutton.cpp
+    mybutton.cpp \
+    myclass.cpp
 
 # 头文件
 HEADERS  += mywidget.h \
-    mybutton.h
+    mybutton.h \
+    myclass.h
 
 #CONFIG += C++11
